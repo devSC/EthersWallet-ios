@@ -13,7 +13,6 @@
 		E21481CC1E431C9800B87132 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044E1E428E0E0013E5A7 /* Utilities.m */; };
 		E21481CD1E431C9E00B87132 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044A1E428E0E0013E5A7 /* UIColor+hex.m */; };
 		E21481CE1E431CAE00B87132 /* SharedDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04481E428E0E0013E5A7 /* SharedDefaults.m */; };
-		E21481CF1E431CC600B87132 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FA046E1E4293750013E5A7 /* ethers.framework */; };
 		E22A59E71EBA9D8500AEE894 /* Signer.m in Sources */ = {isa = PBXBuildFile; fileRef = E22A59E61EBA9D8500AEE894 /* Signer.m */; };
 		E24007432000281400BB01E8 /* FireflySigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E24007422000281400BB01E8 /* FireflySigner.m */; };
 		E240074720018B9A00BB01E8 /* FireflyConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240074620018B9A00BB01E8 /* FireflyConfigController.m */; };
@@ -75,7 +74,6 @@
 		E2FA04531E428E0E0013E5A7 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044A1E428E0E0013E5A7 /* UIColor+hex.m */; };
 		E2FA04541E428E0E0013E5A7 /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044C1E428E0E0013E5A7 /* UIImage+resize.m */; };
 		E2FA04551E428E0E0013E5A7 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044E1E428E0E0013E5A7 /* Utilities.m */; };
-		E2FA04731E42940A0013E5A7 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FA046E1E4293750013E5A7 /* ethers.framework */; };
 		E2FA04751E429A070013E5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FA04741E429A070013E5A7 /* LaunchScreen.storyboard */; };
 		E2FA048E1E4315180013E5A7 /* cloud-0.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FA048C1E4315180013E5A7 /* cloud-0.png */; };
 		E2FA048F1E4315180013E5A7 /* cloud-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FA048D1E4315180013E5A7 /* cloud-1.png */; };
@@ -93,6 +91,8 @@
 		E2FF6A161F46AFC100544B0B /* CrossfadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A151F46AFC100544B0B /* CrossfadeLabel.m */; };
 		E2FF6A191F4773A800544B0B /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A181F4773A800544B0B /* KeyboardView.m */; };
 		E2FF6A1C1F47988E00544B0B /* SliderKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A1B1F47988E00544B0B /* SliderKeyboardView.m */; };
+		FE43F811206936190038DBE6 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE43F80C206936090038DBE6 /* ethers.framework */; };
+		FE43F8142069363F0038DBE6 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE43F80C206936090038DBE6 /* ethers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,33 +103,40 @@
 			remoteGlobalIDString = E2FA03E01E428AC10013E5A7;
 			remoteInfo = EthersWallet;
 		};
-		E2FA046D1E4293750013E5A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2FA04681E4293750013E5A7 /* ethers.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E2317E631E3191AC00DBE3E4;
-			remoteInfo = ethers;
-		};
-		E2FA046F1E4293750013E5A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2FA04681E4293750013E5A7 /* ethers.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E2317E6C1E3191AC00DBE3E4;
-			remoteInfo = ethersTests;
-		};
-		E2FA04711E4293B90013E5A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2FA04681E4293750013E5A7 /* ethers.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E2317E621E3191AC00DBE3E4;
-			remoteInfo = ethers;
-		};
 		E2FA04B41E4319510013E5A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E2FA03D91E428AC10013E5A7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E2FA04A81E4319510013E5A7;
 			remoteInfo = TodayExtension;
+		};
+		FE43F80B206936090038DBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE43F806206936090038DBE6 /* ethers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2317E631E3191AC00DBE3E4;
+			remoteInfo = ethers;
+		};
+		FE43F80D206936090038DBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE43F806206936090038DBE6 /* ethers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2317E6C1E3191AC00DBE3E4;
+			remoteInfo = ethersTests;
+		};
+		FE43F80F206936130038DBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE43F806206936090038DBE6 /* ethers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E2317E621E3191AC00DBE3E4;
+			remoteInfo = ethers;
+		};
+		FE43F8122069363B0038DBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE43F806206936090038DBE6 /* ethers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E2317E621E3191AC00DBE3E4;
+			remoteInfo = ethers;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -270,7 +277,6 @@
 		E2FA044C1E428E0E0013E5A7 /* UIImage+resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+resize.m"; path = "src/Utilities/UIImage+resize.m"; sourceTree = "<group>"; };
 		E2FA044D1E428E0E0013E5A7 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = src/Utilities/Utilities.h; sourceTree = "<group>"; };
 		E2FA044E1E428E0E0013E5A7 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = src/Utilities/Utilities.m; sourceTree = "<group>"; };
-		E2FA04681E4293750013E5A7 /* ethers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethers.xcodeproj; path = ../ethers.objc/ethers.xcodeproj; sourceTree = "<group>"; };
 		E2FA04741E429A070013E5A7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FA048C1E4315180013E5A7 /* cloud-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud-0.png"; path = "Assets/Images/cloud-0.png"; sourceTree = "<group>"; };
 		E2FA048D1E4315180013E5A7 /* cloud-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud-1.png"; path = "Assets/Images/cloud-1.png"; sourceTree = "<group>"; };
@@ -295,6 +301,7 @@
 		E2FF6A181F4773A800544B0B /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyboardView.m; path = src/ViewControllers/ConfigViewControllers/ConfigViews/KeyboardView.m; sourceTree = "<group>"; };
 		E2FF6A1A1F47988E00544B0B /* SliderKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderKeyboardView.h; path = src/ViewControllers/ConfigViewControllers/ConfigViews/SliderKeyboardView.h; sourceTree = "<group>"; };
 		E2FF6A1B1F47988E00544B0B /* SliderKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderKeyboardView.m; path = src/ViewControllers/ConfigViewControllers/ConfigViews/SliderKeyboardView.m; sourceTree = "<group>"; };
+		FE43F806206936090038DBE6 /* ethers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethers.xcodeproj; path = ethers.objc/ethers.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,7 +309,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2FA04731E42940A0013E5A7 /* ethers.framework in Frameworks */,
+				FE43F811206936190038DBE6 /* ethers.framework in Frameworks */,
 				E2FA04A31E4318900013E5A7 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +325,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21481CF1E431CC600B87132 /* ethers.framework in Frameworks */,
+				FE43F8142069363F0038DBE6 /* ethers.framework in Frameworks */,
 				E2FA04AB1E4319510013E5A7 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +423,7 @@
 		E2FA03D81E428AC10013E5A7 = {
 			isa = PBXGroup;
 			children = (
-				E2FA04681E4293750013E5A7 /* ethers.xcodeproj */,
+				FE43F806206936090038DBE6 /* ethers.xcodeproj */,
 				E2FA03E31E428AC10013E5A7 /* EthersWallet */,
 				E2FA049A1E4318210013E5A7 /* TodayExtension */,
 				E2FA03FD1E428AC20013E5A7 /* EthersWalletTests */,
@@ -575,15 +582,6 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
-		E2FA04691E4293750013E5A7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E2FA046E1E4293750013E5A7 /* ethers.framework */,
-				E2FA04701E4293750013E5A7 /* ethersTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E2FA048A1E4314C90013E5A7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,6 +638,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FE43F807206936090038DBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE43F80C206936090038DBE6 /* ethers.framework */,
+				FE43F80E206936090038DBE6 /* ethersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -655,7 +662,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E2FA04721E4293B90013E5A7 /* PBXTargetDependency */,
+				FE43F810206936130038DBE6 /* PBXTargetDependency */,
 				E2FA04B51E4319510013E5A7 /* PBXTargetDependency */,
 			);
 			name = EthersWallet;
@@ -692,6 +699,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FE43F8132069363B0038DBE6 /* PBXTargetDependency */,
 			);
 			name = TodayExtension;
 			productName = TodayExtension;
@@ -751,8 +759,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E2FA04691E4293750013E5A7 /* Products */;
-					ProjectRef = E2FA04681E4293750013E5A7 /* ethers.xcodeproj */;
+					ProductGroup = FE43F807206936090038DBE6 /* Products */;
+					ProjectRef = FE43F806206936090038DBE6 /* ethers.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -765,18 +773,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E2FA046E1E4293750013E5A7 /* ethers.framework */ = {
+		FE43F80C206936090038DBE6 /* ethers.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ethers.framework;
-			remoteRef = E2FA046D1E4293750013E5A7 /* PBXContainerItemProxy */;
+			remoteRef = FE43F80B206936090038DBE6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E2FA04701E4293750013E5A7 /* ethersTests.xctest */ = {
+		FE43F80E206936090038DBE6 /* ethersTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ethersTests.xctest;
-			remoteRef = E2FA046F1E4293750013E5A7 /* PBXContainerItemProxy */;
+			remoteRef = FE43F80D206936090038DBE6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -916,15 +924,20 @@
 			target = E2FA03E01E428AC10013E5A7 /* EthersWallet */;
 			targetProxy = E2FA03FB1E428AC20013E5A7 /* PBXContainerItemProxy */;
 		};
-		E2FA04721E4293B90013E5A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ethers;
-			targetProxy = E2FA04711E4293B90013E5A7 /* PBXContainerItemProxy */;
-		};
 		E2FA04B51E4319510013E5A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E2FA04A81E4319510013E5A7 /* TodayExtension */;
 			targetProxy = E2FA04B41E4319510013E5A7 /* PBXContainerItemProxy */;
+		};
+		FE43F810206936130038DBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ethers;
+			targetProxy = FE43F80F206936130038DBE6 /* PBXContainerItemProxy */;
+		};
+		FE43F8132069363B0038DBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ethers;
+			targetProxy = FE43F8122069363B0038DBE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1029,6 +1042,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ethers.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ethers.objc\"";
 			};
 			name = Debug;
 		};
@@ -1044,6 +1058,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ethers.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ethers.objc\"";
 			};
 			name = Release;
 		};
@@ -1084,6 +1099,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.ethers.app.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ethers.objc\"";
 			};
 			name = Debug;
 		};
@@ -1098,6 +1114,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.ethers.app.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ethers.objc\"";
 			};
 			name = Release;
 		};
